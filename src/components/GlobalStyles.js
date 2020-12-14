@@ -2,8 +2,6 @@ import { createGlobalStyle, css } from "styled-components";
 
 export const GlobalStyle = createGlobalStyle(
   ({ theme: { colors }}) => css`
-    @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600&display=swap');
-    
     *{
       margin: 0;
       padding: 0;

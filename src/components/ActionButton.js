@@ -4,10 +4,11 @@ export const Button = styled.button(
   ({ theme: { colors, spacing }}) => css`
     background-color: ${colors.primary.main};
     color: ${colors.text.button};
-    padding: ${spacing(2)};
-    width: 90%;
-    font-size: ${spacing(2)};
+    padding: ${spacing(1)};
+    font-size: ${spacing(1.8)};
     font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
     border-radius: 4px;
     cursor: pointer;
     transition: .35s;
