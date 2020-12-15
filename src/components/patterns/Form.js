@@ -4,10 +4,15 @@ import { ACTIONS } from "../../pages/Home/index";
 import ActionButton from "../../components/ActionButton";
 
 const FormContainer = styled.form(
-  ({ theme: { spacing } }) => css`
+  ({ theme: { spacing, media } }) => css`
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: ${spacing(1)};
+
+    @media screen and (min-width: ${media.small}) and (max-width: ${media.medium}) {
+      max-width: 55%;
+      margin: auto;
+    }
 
     input,
     select {

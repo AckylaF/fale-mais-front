@@ -28,9 +28,14 @@ const Container = styled.div(
       bottom: 0;
       margin: auto;
 
+      @media screen and (max-width: 375px) {
+        width: ${spacing(40)};
+      }
+
       p {
         font-size: ${spacing(2.2)};
         margin: ${spacing(2)};
+        line-height: 1.5rem;
       }
     }
   `
@@ -49,9 +54,9 @@ const Close = styled.span(
 
 export default function Modal({ valueWithPlan, valueWithoutPlan, dispatch }) {
   const closeModal = () => {
-    dispatch({ 
-      type: ACTIONS.SET_RESULT, 
-      payload: { result: false } 
+    dispatch({
+      type: ACTIONS.SET_RESULT,
+      payload: { result: false },
     });
   };
 
