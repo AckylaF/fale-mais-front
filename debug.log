@@ -1,1 +1,4 @@
 [1214/111750.498:ERROR:directory_reader_win.cc(43)] FindFirstFile: O sistema não pode encontrar o caminho especificado. (0x3)
+[1215/131019.127:ERROR:directory_reader_win.cc(43)] FindFirstFile: O sistema não pode encontrar o caminho especificado. (0x3)
+[1215/131019.143:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\ackyl\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\037a72a1-815e-4266-9ae2-ac7c7d94f5cc: O sistema não pode encontrar o caminho especificado. (0x3)
+[1215/145746.047:ERROR:directory_reader_win.cc(43)] FindFirstFile: O sistema não pode encontrar o caminho especificado. (0x3)
