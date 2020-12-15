@@ -20,9 +20,9 @@ export const Button = styled.button(
 `)
   
 
-export default function ActionButton({ text, fn }) {
+export default function ActionButton({ type, text, fn }) {
   return (
-    <Button onClick={fn} type="button">
+    <Button onClick={fn} type={type} >
       {text}
     </Button>
   );
